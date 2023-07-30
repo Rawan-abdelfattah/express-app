@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <title>Check Wheather</title>
+</head>
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+</style>
+
+<body>
+    {{>Navbar}}
+    <div>
+        <h1> <span style="color: red;">latitude : </span> {{latitude}}</h1>
+        <h1><span style="color: red;">longtitude :</span>  {{longtitude}}</h1>
+        <h1> <span style="color: red;">country : </span> {{country}}</h1>
+        <h1><span style="color: red;">name :</span>  {{name}}</h1>
+        <h1><span style="color: red;">current weather :</span>  {{text}}</h1>
+        <h1><span style="color: red;"> temperature : </span>{{temp}}</h1>
+
+    </div>
+</body>
+
+</html>
